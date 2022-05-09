@@ -24,3 +24,6 @@ Route::get('/memoryGame', function () {
 Route::get('/simpleCalculator', function () {
     return view('simpleCalculator');
 });
+Route::get('/tabs', function () {
+    return view('tabs');
+});
