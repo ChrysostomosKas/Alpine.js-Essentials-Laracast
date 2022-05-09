@@ -1,4 +1,5 @@
 <!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,11 +9,11 @@
 
 <body>
 
-<div>
-    <ul>
-        <li><a href="/memoryGame">Memory game</a></li>
-        <li><a href="/simpleCalculator">Simple Calculator</a></li>
-    </ul>
+<div x-data="{ first: 0, second: 0 }">
+    <input type="text" x-model.number="first"> + <input type="text" x-model.number="second"> =
+    <output x-text="first + second"></output>
 </div>
+
 </body>
+
 </html>

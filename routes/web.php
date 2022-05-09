@@ -16,3 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/memoryGame', function () {
+    return view('memoryGame');
+});
+
+Route::get('/simpleCalculator', function () {
+    return view('simpleCalculator');
+});
