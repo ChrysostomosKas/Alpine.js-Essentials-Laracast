@@ -27,3 +27,11 @@ Route::get('/simpleCalculator', function () {
 Route::get('/tabs', function () {
     return view('tabs');
 });
+
+Route::get('/a', function () {
+    return view('userForm');
+});
+
+Route::get('/userForm', function () {
+    return view('userForm');
+});

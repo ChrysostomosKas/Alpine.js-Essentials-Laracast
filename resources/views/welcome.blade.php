@@ -13,6 +13,7 @@
         <li><a href="/memoryGame">Memory game</a></li>
         <li><a href="/simpleCalculator">Simple Calculator</a></li>
         <li><a href="/tabs">Tabs</a></li>
+        <li><a href="/userForm">User Form</a></li>
     </ul>
 </div>
 </body>
