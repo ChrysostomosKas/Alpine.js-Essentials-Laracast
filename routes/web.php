@@ -28,10 +28,10 @@ Route::get('/tabs', function () {
     return view('tabs');
 });
 
-Route::get('/a', function () {
+Route::get('/userForm', function () {
     return view('userForm');
 });
 
-Route::get('/userForm', function () {
-    return view('userForm');
+Route::get('/a', function () {
+    return view('a');
 });
