@@ -15,7 +15,8 @@
         <li><a href="/tabs">Tabs</a></li>
         <li><a href="/userForm">User Form</a></li>
         <li><a href="/Tasks">Tasks</a></li>
-        <li><a href="/a">a</a></li>
+        <li><a href="/firtstTransition">First Transition</a></li>
+        <li><a href="/secondTransition">Second Transition</a></li>
     </ul>
 </div>
 </body>
