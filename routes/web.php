@@ -32,10 +32,14 @@ Route::get('/userForm', function () {
     return view('userForm');
 });
 
-Route::get('/firtstTransition', function () {
-    return view('firtstTransition');
+Route::get('/firstTransition', function () {
+    return view('firstTransition');
 });
 
 Route::get('/secondTransition', function () {
     return view('secondTransition');
+});
+
+Route::get('/demo', function () {
+    return view('demo');
 });
